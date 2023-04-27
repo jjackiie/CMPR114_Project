@@ -1,0 +1,28 @@
+1. Your project's objective(s)
+    - Use Python and OpenAPI to implement a ChatGPT session
+2. Your project plan - what needs to be done and who does what
+    - implement a ChatGPT
+    - create a class that for the chat session
+    - create a function to generate responses from OpenAPI
+    - define a dictionary
+    - create a tuple of for exit commands
+    - create a repeat loop using "while" to ask the user
+    - using a exception handling like "try" blocks to catch and
+      handle exceptions
+3. You plan to cover the the requirements - what feature satisfies
+   which requirements.
+   - Using a while statement the will satisfy the use of repeat loop
+   - The whole program will generally satisfy the use of function
+   - Defining a list of possible responses for unrecognized input
+     will satisfy the use of list
+   - Define a dictionary of prompts fro different chat topics will
+     satisfy the use of dictionaries
+   - Using __init__ method will satisfy the use of object oriented
+4. Your test plan - how do you plan to test
+    - In our draft process, testing will be done manually. Once, the
+    program evolves we will try to proceed with unit testing.
+5. Your presentation plan - how do you plan to present your work, results.
+    - We plan to use a powerpoint to explain the application objective,
+      application design, show here the code implements Python features
+      and explain how the application was tested. After the powerpoint,
+      give a live demonstration of our project.
