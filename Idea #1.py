@@ -2,7 +2,7 @@ import openai
 import time
 
 # set OpenAI API key
-openai.api_key = "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"
+openai.api_key = " "
 
 def main():
     chatbot = ChatGPT()
