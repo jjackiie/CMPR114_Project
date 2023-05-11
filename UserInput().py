@@ -25,11 +25,20 @@ def generate_response(prompt):
 # Define a tuple of exit commands for the chat session
 exit_commands = ("exit", "quit", "bye", "goodbye")
 
+# Define a list of possible responses for unrecognized input
+unrecognized_responses = [
+    "I'm sorry, I don't understand.",
+    "Could you rephrase that?",
+    "I'm not sure what you mean.",
+]
+
 # Ask the user for a question
 while True:
     question = input("Ask a question (type 'exit' to quit): ")
     if question.lower() == exit_commands:
         break
+    else:
+        print(unrecognized_responses)
 
 # Generate a response from ChatGPT
 start = time.time()
