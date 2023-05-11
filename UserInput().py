@@ -8,7 +8,7 @@ openai.api_key = "  "
 model_engine = "   "
 
 
-# Define a function to generate the response from the model
+# Define a function to generate the response
 def generate_response(prompt):
     response = openai.Completion.create(
         engine=model_engine,
