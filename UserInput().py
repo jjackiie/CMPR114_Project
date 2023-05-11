@@ -22,10 +22,13 @@ def generate_response(prompt):
     return message
 
 
+# Define a tuple of exit commands for the chat session
+exit_commands = ("exit", "quit", "bye", "goodbye")
+
 # Ask the user for a question
 while True:
     question = input("Ask a question (type 'exit' to quit): ")
-    if question.lower() == "exit":
+    if question.lower() == exit_commands:
         break
 
 # Generate a response from ChatGPT
